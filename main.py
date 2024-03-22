@@ -18,4 +18,4 @@ bonus = float(input("Digite seu bônus: "))
 valor_final = CONSTANTE_BONUS + (salario * bonus)
 
 # print(valor_final)
-print(f"O Usuário {nome} possui o Bônus {valor_final}")
+print(f"O Usuário {nome} possui o Bônus {valor_final:.2f}")
